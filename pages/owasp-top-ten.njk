@@ -1,0 +1,11 @@
+---
+title: OWASP Top Ten
+description: What are the most critical security risks that developers need to be aware of and prepared to mitigate? The Open Web Application Security Project (OWASP) tracks the most common threats and releases a Top 10 list of security risks to be aware of.
+layout: default
+---
+
+{% for slide in collections["owasp-top-ten"] | sortByOrder %}
+<div class="cmp-slide">
+  {{ slide.content | safe }}
+</div>
+{% endfor %}
