@@ -1,0 +1,10 @@
+ul,
+ol,
+dl {
+  font-size: var(--size-s1);
+  margin: 0;
+}
+
+:is(ul, ol) > * + * {
+  margin-block-start: var(--size-s-3);
+}

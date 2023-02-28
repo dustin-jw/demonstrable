@@ -1,6 +1,12 @@
 .cmp-slide {
   display: grid;
-  min-height: 100vh;
   place-content: center;
+  min-height: 100vh;
+  width: min(100vw - 2rem, 50rem);
+  margin-inline: auto;
   scroll-snap-align: center;
+}
+
+.cmp-slide > * + * {
+  margin-block-start: var(--size-s0);
 }

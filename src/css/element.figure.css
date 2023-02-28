@@ -1,0 +1,9 @@
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-size: var(--size-s0);
+  margin-block-start: var(--size-s-3);
+  text-align: center;
+}
