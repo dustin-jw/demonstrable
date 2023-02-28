@@ -1,0 +1,19 @@
+---
+title: Presentations | Demonstrable
+description: Choose a presentation to give or review.
+layout: default
+---
+
+<div class="cmp-slide">
+  <h1>Presentations</h1>
+
+  <ul>
+    {% for presentation in collections.presentations %}
+    <li>
+      <a href="{{ presentation.url }}">
+        {{ presentation.data.title }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
