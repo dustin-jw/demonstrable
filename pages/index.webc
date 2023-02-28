@@ -1,0 +1,13 @@
+---
+title: Home
+description: This is the home page.
+layout: default
+---
+
+<h1>Home Page</h1>
+
+<p>This is the home page.</p>
+
+<cmp-slide>
+  <h2>This is content.</h2>
+</cmp-slide>
