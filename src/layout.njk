@@ -32,6 +32,14 @@
     {% block footer %}{% endblock %}
 
     <!-- global scripts, should render on every page -->
+    <script>
+      const preTags = document.querySelectorAll('pre');
+      if (preTags.length) {
+        preTags.forEach((element) => {
+          element.setAttribute('tabindex', 0);
+        });
+      }
+    </script>
 
     <!-- page-specific scripts, should be set within the page template -->
     {% block scripts %}{% endblock %}
