@@ -4,8 +4,8 @@ description: What are the most critical security risks that developers need to b
 layout: default
 ---
 
-{% renderTemplate "webc" %}
-<cmp-slide>
-  <h1>OWASP Top Ten</h1>
-</cmp-slide>
-{% endrenderTemplate %}
+{% for slide in collections["owasp-top-ten"] | sortByOrder %}
+<div class="cmp-slide">
+  {{ slide.content | safe }}
+</div>
+{% endfor %}
