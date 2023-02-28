@@ -9,6 +9,12 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter('sortByOrder', sortByOrder);
 
+  eleventyConfig.addCollection('allExceptSlides', (collectionApi) => {
+    return collectionApi
+      .getAll()
+      .filter((item) => !item.data.tags?.includes('slides'));
+  });
+
   return {
     dir: {
       input: 'pages',
