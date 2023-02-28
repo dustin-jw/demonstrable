@@ -45,7 +45,7 @@ h6 {
   hyphens: auto;
 }
 
-:where(h1, h2, h3, h4, h5, h6, p, ul, ol, dl) {
+:where(h1, h2, h3, h4, h5, h6, p, ul, ol, dl, pre) {
   line-height: calc(1em + 0.5rem);
 }
 

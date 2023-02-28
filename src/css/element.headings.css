@@ -1,0 +1,19 @@
+h1 {
+  font-size: var(--size-s5);
+  margin-bottom: 0.65em;
+}
+
+h2 {
+  font-size: var(--size-s4);
+  margin-block-start: 0.65em;
+}
+
+h3 {
+  font-size: var(--size-s3);
+  margin-block-start: 0.65em;
+}
+
+h4 {
+  font-size: var(--size-s2);
+  margin-block-start: 0.65em;
+}
