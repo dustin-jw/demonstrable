@@ -1,7 +1,7 @@
 {
   "name": "demonstrable",
   "version": "0.1.0",
-  "description": "",
+  "description": "A lightweight tool for building simple presentations for the browser.",
   "main": "index.js",
   "author": "",
   "license": "ISC",
