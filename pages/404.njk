@@ -1,0 +1,24 @@
+---
+title: 404 Not Found
+description: The page you requested could not be found.
+layout: default
+permalink: /404.html
+eleventyExcludeFromCollections: true
+---
+
+{% extends 'layout.njk' %}
+
+{% block favicon %}
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤷</text></svg>">
+{% endblock %}
+
+{% block content %}
+<div class="cmp-slide">
+  <h1>404 Not Found</h1>
+  <p>
+    <a href="/">
+      All presentations
+    </a>
+  </p>
+</div>
+{% endblock %}
