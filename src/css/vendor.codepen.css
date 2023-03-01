@@ -1,0 +1,13 @@
+/* stylelint-disable selector-class-pattern */
+.cp_embed_wrapper {
+  overflow: hidden;
+  resize: horizontal;
+  block-size: 600px;
+  width: min(100vw - 2rem, 50rem);
+  min-width: 320px;
+  margin-inline: auto;
+}
+
+.cp_embed_wrapper > iframe {
+  height: 100%;
+}
