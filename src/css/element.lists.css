@@ -8,3 +8,7 @@ dl {
 :is(ul, ol) > * + * {
   margin-block-start: var(--size-s-3);
 }
+
+:is(ul, ol) > li > :is(ul, ol) > :first-child {
+  margin-block-start: var(--size-s-3);
+}
