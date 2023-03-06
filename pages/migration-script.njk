@@ -1,0 +1,19 @@
+---
+title: So You Want to Migrate Hundreds of Pages
+description: "The scenario: you have hundreds of pages that need to be migrated from one CMS to another, but you only have so much time. How can you speed up the process?"
+tags: presentations
+---
+
+{% extends 'layout.njk' %}
+
+{% block favicon %}
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>📜</text></svg>">
+{% endblock %}
+
+{% block content %}
+{% for slide in collections["migration-script"] | sortByOrder %}
+<div class="cmp-slide">
+  {{ slide.content | safe }}
+</div>
+{% endfor %}
+{% endblock %}

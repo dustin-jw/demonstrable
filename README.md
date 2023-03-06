@@ -41,19 +41,17 @@ description: <presentation-description>
 tags: presentations
 ---
 
-{% extends 'layout.njk' %}
-
-{% block favicon %}
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🙂</text></svg>">
-{% endblock %}
-
-{% block content %}
-{% for slide in collections["<presentation-tag>"] | sortByOrder %}
-<div class="cmp-slide">
-  {{ slide.content | safe }}
-</div>
-{% endfor %}
-{% endblock %}
+{% extends 'layout.njk' %} {% block favicon %}
+<link
+  rel="icon"
+  href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>🙂</text></svg>"
+/>
+{% endblock %} {% block content %} {% for slide in
+collections["<presentation-tag
+  >"] | sortByOrder %}
+  <div class="cmp-slide">{{ slide.content | safe }}</div>
+  {% endfor %} {% endblock %}</presentation-tag
+>
 ```
 
 Then, you'll want a folder in `pages/slides` corresponding to your presentation. That folder must have a `<presentation-name>.json` file where `<presentation-name>` matches the name of the folder.
