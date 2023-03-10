@@ -10,7 +10,7 @@
     {% endblock %}
 
     {% block favicon %}
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧑‍💻</text></svg>">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>🧑‍💻</text></svg>">
     {% endblock %}
 
     <link rel="apple-touch-icon" href="/maskable_icon.png">
@@ -20,6 +20,7 @@
     <meta name="theme-color" content="#1a1a1a" media="(prefers-color-scheme: dark)">
     <meta name="theme-color" content="#f2f2f2" media="(prefers-color-scheme: light)">
 
+    <link rel="stylesheet" href="https://unpkg.com/prismjs@1.29.0/themes/prism-okaidia.min.css">
     <link rel="stylesheet" href="/styles.css">
   </head>
   <body>
@@ -40,6 +41,7 @@
         });
       }
     </script>
+    <script src="https://unpkg.com/prismjs@1.29.0/prism.js"></script>
 
     <!-- page-specific scripts, should be set within the page template -->
     {% block scripts %}{% endblock %}
