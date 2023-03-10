@@ -2,7 +2,7 @@
 order: 10
 ---
 
-## Fetching Images
+### Fetching Images
 
 ```js
 const getImageUrls = (html) => {

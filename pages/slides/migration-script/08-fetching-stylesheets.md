@@ -2,7 +2,7 @@
 order: 8
 ---
 
-## Fetching Stylesheets
+### Fetching Stylesheets
 
 ```js
 const getStylesheetUrls = (html) => {

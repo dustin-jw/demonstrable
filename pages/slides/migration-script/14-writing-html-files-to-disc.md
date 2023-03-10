@@ -2,7 +2,7 @@
 order: 14
 ---
 
-## Writing HTML Files to Disc
+### Writing HTML Files to Disc
 
 ```js
 const writeHtmlFile = (page, processedHtml) => {

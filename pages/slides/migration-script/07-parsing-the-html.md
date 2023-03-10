@@ -2,7 +2,7 @@
 order: 7
 ---
 
-## Parsing the HTML
+### Parsing the HTML
 
 ```js
 const jsdom = require('jsdom');

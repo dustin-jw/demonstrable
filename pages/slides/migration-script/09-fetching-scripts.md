@@ -2,7 +2,7 @@
 order: 9
 ---
 
-## Fetching Scripts
+### Fetching Scripts
 
 ```js
 const getScriptUrls = (html) => {

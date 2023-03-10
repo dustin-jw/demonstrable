@@ -2,7 +2,7 @@
 order: 15
 ---
 
-## Putting it all Together
+### Putting it all Together
 
 ```js
 const migratePages = (pagesToMigrate) => {

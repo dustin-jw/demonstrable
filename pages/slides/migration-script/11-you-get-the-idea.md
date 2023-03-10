@@ -2,7 +2,7 @@
 order: 11
 ---
 
-## You Get the Idea
+### You Get the Idea
 
 We'll do the same sort of thing for icons, manifests, videos, and anything with a `srcset` attribute so we get all the variations of images.
 

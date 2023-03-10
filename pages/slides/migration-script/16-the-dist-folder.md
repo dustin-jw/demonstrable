@@ -2,7 +2,7 @@
 order: 16
 ---
 
-## The dist Folder
+### The dist Folder
 
 When we run the script, the files are written to the `dist` folder, which should be able to be served as a static site.
 

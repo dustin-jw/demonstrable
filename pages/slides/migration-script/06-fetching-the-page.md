@@ -2,7 +2,7 @@
 order: 6
 ---
 
-## Fetching the Page
+### Fetching the Page
 
 ```js
 const axios = require('axios');
