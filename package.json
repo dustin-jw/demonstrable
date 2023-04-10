@@ -20,8 +20,8 @@
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "dotenv": "^16.0.3",
-    "eslint": "^8.37.0",
-    "npm-check-updates": "^16.10.0",
+    "eslint": "^8.38.0",
+    "npm-check-updates": "^16.10.7",
     "stylelint": "^15.4.0",
     "stylelint-config-standard": "^32.0.0"
   }
