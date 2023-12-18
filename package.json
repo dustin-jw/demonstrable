@@ -19,7 +19,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "dotenv": "^16.3.1",
-    "eslint": "^8.55.0",
+    "eslint": "^8.56.0",
     "stylelint": "^16.0.2",
     "stylelint-config-standard": "^35.0.0"
   }
