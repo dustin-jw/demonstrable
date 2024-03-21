@@ -19,31 +19,5 @@ tags: presentations
 {% endblock %}
 
 {% block scripts %}
-<script src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-<script>
-  const loadPens = () => {
-    window.__CPEmbed?.('.codepen-later');
-  };
-
-  const listenForPermissionToLoadPens = () => {
-    document.querySelectorAll('.grant-codepen-consent').forEach((button) => {
-      button.addEventListener('click', () => {
-        localStorage.setItem('cp-functional-cookie-consent', 'granted');
-        loadPens();
-      });
-    });
-  }
-
-  const checkCodepenConsent = () => {
-    const consent = localStorage.getItem('cp-functional-cookie-consent');
-    if (consent === 'granted') {
-      loadPens();
-      return;
-    }
-
-    listenForPermissionToLoadPens();
-  };
-
-  checkCodepenConsent();
-</script>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 {% endblock %}
