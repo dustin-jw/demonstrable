@@ -11,14 +11,3 @@
 .cp_embed_wrapper > iframe {
   height: 100%;
 }
-
-.grant-codepen-consent {
-  margin-block-start: 1rem;
-  padding: 0.25rem 0.5rem;
-  font: inherit;
-  background-color: var(--paper);
-  color: var(--ink);
-  border: 1px solid var(--ink);
-  border-radius: 0.25rem;
-  box-shadow: 3px 3px 0 0 #666;
-}
