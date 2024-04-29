@@ -13,13 +13,15 @@
     "build": "rm -rf dist && eleventy",
     "lint": "npm run lint:css && npm run lint:js",
     "lint:css": "stylelint \"src/**/*.{css,scss,sass}\" --color --formatter verbose",
-    "lint:js": "DEBUG=eslint:cli-engine eslint .",
+    "lint:js": "eslint",
     "test": "echo \"TODO: add support for testing\" && exit 0"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
+    "@eslint/js": "^9.1.1",
     "dotenv": "^16.4.5",
     "eslint": "^9.1.1",
+    "globals": "^15.1.0",
     "stylelint": "^16.3.1",
     "stylelint-config-standard": "^36.0.0"
   }
